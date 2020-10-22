@@ -9,9 +9,8 @@ RUN sudo apt-get update \
  && sudo rm -rf /var/lib/apt/lists/*
 RUN sudo mkdir -p /data/db \
  && sudo chown gitpod:gitpod -R /data/db
-RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+RUN source ~/.bashrc && nvm install 10.18.0
 RUN npm install -g nodemon
-RUN nvm install 10.18.0
 RUN git clone https://github.com/yenp/dropship2020-api
 RUN cd dropship2020-api && npm i && cd ..
 RUN git clone https://github.com/yenp/dropship2020-web
