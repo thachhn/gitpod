@@ -1,0 +1,4 @@
+module.exports = {
+  'secret': "qwertyuiopasdfghjklzxcvbnm3223",
+  'database': 'mongodb+srv://clinic:ZT3sxx5f7GvRYyW@cluster0.j0lj1.mongodb.net/clinic2020?retryWrites=true&w=majority'
+};
