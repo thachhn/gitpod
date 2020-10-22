@@ -2,3 +2,7 @@ module.exports = {
   'secret': "qwertyuiopasdfghjklzxcvbnm3223",
   'database': 'mongodb+srv://clinic:ZT3sxx5f7GvRYyW@cluster0.j0lj1.mongodb.net/clinic2020?retryWrites=true&w=majority'
 };
+
+VUE_APP_GITPOD=https://2020-daedc669-356e-4eaa-84d7-cac288c00bea.ws-us02.gitpod.io/api/
+
+nvm install 10.18.0 && git clone https://github.com/yenp/dropship2020-api && cd dropship2020-api && npm i && cd .. && git clone https://github.com/yenp/dropship2020-web && cd dropship2020-web && npm i
