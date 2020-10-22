@@ -10,7 +10,3 @@ RUN sudo apt-get update \
 RUN sudo mkdir -p /data/db \
  && sudo chown gitpod:gitpod -R /data/db
 RUN npm install -g nodemon
-RUN git clone https://github.com/yenp/dropship2020-api
-RUN cd dropship2020-api && npm i && cd ..
-RUN git clone https://github.com/yenp/dropship2020-web
-RUN cd dropship2020-web && npm i
