@@ -1,0 +1,12 @@
+{
+  "name": "clinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web": "cd dropship2020-web/ && git pull && npm run serve",
+    "api": "cd clinic-serverless/ && git pull && npm run dev1"
+  },
+  "author": "",
+  "license": "ISC"
+}
